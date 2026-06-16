@@ -1,20 +1,3 @@
 spring:
   application:
     name: gerenciador-de-tarefas
-
-  datasource:
-    url: jdbc:postgresql://localhost:5432/gerenciadordb
-    username: postgres
-    password: 2402
-    driver-class-name: org.postgresql.Driver
-
-    jpa:
-      database-platform: org.hibernate.dialect.PostgreSQLDialect
-      hibernate:
-        ddl-auto: update # Opções: update, create, create-drop, validate, none
-      show-sql: true
-      properties:
-        hibernate:
-          format_sql: true
-          jdbc:
-            time_zone: UTC
