@@ -37,7 +37,7 @@ public class User {
     private List<Task> tasks;
 
     @PrePersist
-    public void prePersist(){
+    public void prePersist() {
         this.createdAt = LocalDateTime.now();
     }
 
