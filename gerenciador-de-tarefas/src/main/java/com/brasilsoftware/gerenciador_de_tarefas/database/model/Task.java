@@ -59,7 +59,7 @@ public class Task {
         this.createdAt = LocalDateTime.now();
         this.updatedAt = LocalDateTime.now();
         if(this.status == null) this.status = TaskStatus.PENDING;
-        if(this.priority == null) this.priority = TaskStatus.MEDIUM;
+        if(this.priority == null) this.priority = TaskPriority.MEDIUM;
     }
 
     @PreUpdate

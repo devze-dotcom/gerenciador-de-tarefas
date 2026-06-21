@@ -3,7 +3,7 @@ package com.brasilsoftware.gerenciador_de_tarefas.database.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.scheduling.config.Task;
+import com.brasilsoftware.gerenciador_de_tarefas.database.model.Task;
 
 import java.time.LocalDateTime;
 import java.util.List;

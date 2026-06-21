@@ -12,13 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v1/hello")
 public class HelloWorldController {
 
-   /* @GetMapping
-    public String helloword(){
-        return "Hello World!";
-    }*/
+   @GetMapping
+    public String helloword() {
+       return "Hello World!";
 
-    @PostMapping
-    public ResponseEntity<String> helloWorld(){
-        return new ResponseEntity<>("Hello World", HttpStatus.CREATED);
-    }
+   }
 }
